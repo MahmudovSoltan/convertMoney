@@ -1,9 +1,13 @@
+import { BrowserRouter } from 'react-router-dom'
 import './App.css'
 import ConvertBody from './components/ConvertBody'
 const App = () => {
   return (
     <div className="container">
-          <ConvertBody/>
+      <BrowserRouter>
+        <ConvertBody />
+
+      </BrowserRouter>
     </div>
   )
 }
